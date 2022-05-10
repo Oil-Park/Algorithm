@@ -6,7 +6,7 @@ class Player
 {
 	enum
 	{
-		MOVE_TICK = 50
+		MOVE_TICK = 100
 	};
 
 public:
@@ -21,6 +21,7 @@ public:
 private:
 	void		RightHand();
 	void		Bfs();
+	void		AStar();
 
 private:
 	Pos			_pos = {};
